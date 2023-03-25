@@ -4,7 +4,7 @@ export const Container = styled.header`
     background-color: #2C2C50;
     width: 100%;
     height: 8rem;
-    z-index: 10000;
+    z-index: 500;
     position: fixed;
 `;
 
@@ -43,6 +43,7 @@ export const ButtonMenu = styled.button`
     background-color: transparent;
     cursor: pointer;
     margin-right: 1rem;
+    z-index: 600;
 `;
 
 export const IconButton = styled.span`

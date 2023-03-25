@@ -5,6 +5,8 @@ export const Container = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 90%;
+    margin: auto;
 `;
 
 export const Button = styled.button`
@@ -30,7 +32,7 @@ export const Title = styled.p`
 `;
 
 export const InputContainer = styled.div`
-    width: 60rem;
+    width: 100%;
     justify-content: center;
     align-items: center;
     height: 5rem;

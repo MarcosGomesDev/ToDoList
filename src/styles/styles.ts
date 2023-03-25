@@ -7,10 +7,6 @@ export const Container = styled.section`
     width: 100%;
     align-items: center;
     justify-content: center;
-
-    @media (max-width: 600px) {
-        width: 600px;
-    }
 `;
 
 export const Content = styled.div`
