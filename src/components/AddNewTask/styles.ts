@@ -5,8 +5,12 @@ export const Container = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 90%;
+    width: 50%;
     margin: auto;
+
+    @media (max-width: 600px) {
+        width: 90%;
+    }
 `;
 
 export const Button = styled.button`

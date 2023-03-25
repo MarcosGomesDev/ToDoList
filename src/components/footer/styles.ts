@@ -10,10 +10,6 @@ export const FooterContainer = styled.footer`
     left: 0;
     bottom: 0;
     width: 100%;
-
-    @media (max-width: 600px) {
-        width: 600px;
-    }
 `;
 
 export const Title = styled.h2`

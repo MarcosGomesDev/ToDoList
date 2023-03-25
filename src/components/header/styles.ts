@@ -96,6 +96,10 @@ export const Menu = styled.nav`
     flex: 0 1 auto;
     &.active ${ListMenu} {
         width: 35rem;
+
+        @media(max-width: 800px) {
+            width: 60%;
+        }
     }
     &.active ${IconButton} {
         border-top-color: transparent;
