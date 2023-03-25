@@ -9,7 +9,7 @@ const Header = () => {
         <Container>
             <HeaderContent>
                 <Title>Lista de Tarefas</Title>
-                <Menu className={active ? 'active' : ''}>
+                {/* <Menu className={active ? 'active' : ''}>
                     <ButtonMenu onClick={() => setActive(!active)}>
                         <IconButton />
                     </ButtonMenu>
@@ -41,7 +41,7 @@ const Header = () => {
                             Sair
                         </LogoutButton>
                     </ListMenu>
-                </Menu>
+                </Menu> */}
 
             </HeaderContent>
         </Container>
